@@ -18,18 +18,30 @@ Open-PAV (Open Production Automated Vehicle) is an open platform designed to fac
 - **Community Collaboration:**
   - Designed to foster contributions and collaboration among researchers globally.
 
-## What's New
+## Original Datasets
 
-### March 2025
-- **Model Enhancements:** Improved calibration modeling methodology.
-- **Simulation Integration:** Configured packages for SUMO, Vissim, and basic parameters for models.
+Thirteen open-source datasets provide diverse insights into AV behavior across various driving conditions and scenarios. These open-source datasets are from six providers:
 
-### December 2024
-- **Dataset Expansion:** Added new open-source trajectory datasets from ULTRA datasets.
-- **Model Enhancements:** Improved basic logic for the project.
-
-### November 2024
-- **Project Startup:** Comprehensive installation and user guides are now available.
+- **Vanderbilt ACC Dataset**. Collected in Nashville, Tennessee by Vanderbilt University research group. [[Link]](https://acc-dataset.github.io/datasets/) [[Paper]](https://arxiv.org/abs/1911.06454).
+  - [Two-vehicle ACC driving, Tennessee 2019](https://github.com/CATS-Lab/Filed-Experiment-Data-AV_Platooning_Data)
+- **MircoSimACC Dataset**. Collected in four cities in Florida, including Delray Beach, Loxahatchee, Boca Raton, and Parkland by the Florida Atlantic University research group. [[Link]](https://github.com/microSIM-ACC/ICE) [[Paper]](https://ieeexplore.ieee.org/document/10421910)
+  - [ICE](https://github.com/microSIM-ACC/ICE)
+- **CATS Open Datasets**. Three datasets were gathered in Tampa, Florida, and Madison, Wisconsin by the CATS Lab. [[Link]](https://github.com/CATS-Lab) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0968090X21001534)
+  - [Filed-Experiment-Data-AV_Platooning_Data](https://github.com/CATS-Lab/Filed-Experiment-Data-AV_Platooning_Data)
+  - [Filed-Experiment-Data-ACC_Data](https://github.com/CATS-Lab/Filed-Experiment-Data-ACC_Data)
+  - [CATS-UWMadison-AV-Data](https://github.com/MarkMaaaaa/CATS-UWMadison-AV-Data)
+- **OpenACC Database**. Four datasets were collected across Italy, Sweden, and Hungary by the European Commission's Joint Research Centre. [[Link]](https://data.europa.eu/data/datasets/9702c950-c80f-4d2f-982f-44d06ea0009f?locale=en) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0968090X21000772)
+  - [Casale](https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/TransportExpData/JRCDBT0001/LATEST/Casale/)
+  - [Vicolungo](https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/TransportExpData/JRCDBT0001/LATEST/Vicolungo/)
+  - [AstaZero](https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/TransportExpData/JRCDBT0001/LATEST/AstaZero/)
+  - [ZalaZone](https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/TransportExpData/JRCDBT0001/LATEST/ZalaZone/)
+- **Central Ohio ACC Datasets**. Two datasets were collated in Ohio by UCLA's Mobility Lab and Transportation Research Center. [[Link]](https://catalog.data.gov/dataset/advanced-driver-assistance-system-adas-equipped-single-vehicle-data-for-central-ohio) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0968090X23001092)
+  - [Advanced Driver Assistance System (ADAS)-Equipped Two-Vehicle Data for Central Ohio](https://catalog.data.gov/dataset/advanced-driver-assistance-system-adas-equipped-two-vehicle-data-for-central-ohio)
+- **Waymo Open Dataset**. Two datasets were collected in six cities including San Francisco, Mountain View, and Los Angeles in California, Phoenix in Arizona, Detroit in Michigan, and Seattle in Washington by Waymo. [[Paper1]](https://www.sciencedirect.com/science/article/pii/S0968090X21004769)[[Paper2]](https://openaccess.thecvf.com/content/ICCV2021/papers/Ettinger_Large_Scale_Interactive_Motion_Forecasting_for_Autonomous_Driving_The_Waymo_ICCV_2021_paper.pdf)
+  - [Waymo Motion Dataset](https://waymo.com/open/data/motion/)
+  - [Vehicle trajectory data processed from the Waymo Open Dataset](https://data.mendeley.com/datasets/wfn2c3437n/2)
+- **Argoverse 2 Motion Forecasting Dataset** [8]. Collected from Austin in Texas, Detroit in Michigan, Miami in Florida, Pittsburgh in Pennsylvania, Palo Alto in California, and Washington, D.C. by Argo AI with researchers from Carnegie Mellon University and the Georgia Institute of Technology. [[Paper]](https://arxiv.org/abs/2301.00493Thirteen open-source datasets provide diverse insights into AV behavior across various driving conditions and scenarios.)
+  - [Argoverse 2 Motion Forecasting Dataset](https://www.argoverse.org/av2.html)
 
 
 ## Major Components
@@ -101,12 +113,9 @@ Open-PAV is released under the [MIT License](LICENSE). See the LICENSE file for 
 
 Open-PAV is developed and maintained by: [CATS Lab](https://catslab.engr.wisc.edu/) Xiaopeng Li ([Homepage](https://catslab.engr.wisc.edu/staff/xiaopengli/))
 
-### Project Lead:
-- Ke Ma ([Homepage](https://markmaaaaa.github.io/KeMa.github.io/portfolio/))
+### Project Lead: [Ke Ma](https://markmaaaaa.github.io/KeMa.github.io/portfolio/))
 
-### Team Members:
-- Hang Zhou ([Homepage](https://catslab.engr.wisc.edu/staff/zhou-hang/))
-- Shixiao Liang ([Homepage](https://catslab.engr.wisc.edu/staff/liang-shixiao/))
+### Team Members: [Hang Zhou](https://catslab.engr.wisc.edu/staff/zhou-hang/), [Shixiao Liang](https://catslab.engr.wisc.edu/staff/liang-shixiao/), [Keke Long](https://catslab.engr.wisc.edu/staff/long-keke/), [Chengyuan Ma](https://catslab.engr.wisc.edu/staff/ma-chengyuan/)
 
 ### Sponsors:
 
@@ -114,4 +123,4 @@ Open-PAV is developed and maintained by: [CATS Lab](https://catslab.engr.wisc.ed
 
 ### External Acknowledgements:
 
-We would like to thank our collaborator Jinbiao Huo for his valuable contributions to this project. We also sincerely appreciate all the dataset providers and contributors for making this work possible.
+We sincerely appreciate all the dataset providers and contributors for making this work possible. We would like to thank our collaborator Jinbiao Huo for his valuable contributions to this project.
